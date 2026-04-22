@@ -1,7 +1,7 @@
 # Rust
 Rust Programming Langauge (Me attempting to learn)
 
-YouTube Video: https://youtu.be/BpPEoZW5IiY?t=479
+YouTube Video: https://youtu.be/BpPEoZW5IiY?t=538
 
 # Notes
 1. `fn` to define function
