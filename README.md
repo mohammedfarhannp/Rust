@@ -30,7 +30,8 @@ fn main()
 14. `#[allow(unused_assignments)]` use this before main at top to avoid warnings on unused assignments of variables.
 15. Doesn't have OOP in traditional sense but can program OOP style programs. No classes but could mimick classes with structs and traits.
 16. Default types of Integers is `i32` and floats is `f64`.
-
+17. char type variable takes up 4 bytes unlike the C language taking 1 byte.
+18. 
 
 # Integer Types
 | Length    | Signed    | Unsigned |
