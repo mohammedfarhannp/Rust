@@ -27,4 +27,5 @@ fn main()
 11. `&str` is datatype annotation for string.
 12. Shadowing allows you to create variables with same name.
 13. `#[allow(unused_variables)]` use of this before main at top to avoid warnings on unused variables or just rename the variable to start with underscore like this `let _x: i8 = 20;`
-14. 
+14. `#[allow(unused_assignments)]` use this before main at top to avoid warnings on unused assignments of variables.
+15. 
