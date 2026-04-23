@@ -30,3 +30,14 @@ fn main()
 14. `#[allow(unused_assignments)]` use this before main at top to avoid warnings on unused assignments of variables.
 15. Doesn't have OOP in traditional sense but can program OOP style programs. No classes but could mimick classes with structs and traits.
 
+
+
+# Integer Types
+| Length    | Signed    | Unsigned |
+|-----------|-----------|----------|
+| 8-bit     | i8        | u8       |
+| 16-bit    | i16       | u16      |
+| 32-bit    | i32       | u32      |
+| 64-bit    | i64       | u64      |
+| 128-bit   | i128      | u128     |
+| arch      | isize     | usize    |
