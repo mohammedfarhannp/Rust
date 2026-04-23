@@ -1,7 +1,7 @@
 # Rust
 Rust Programming Langauge (Me attempting to learn)
 
-YouTube Video: https://youtu.be/BpPEoZW5IiY?t=798
+YouTube Video: https://youtu.be/BpPEoZW5IiY?t=1052
 
 # Notes
 1. `fn` to define function
@@ -24,3 +24,5 @@ fn main()
 ```
 9. Only macros are called with `!()` not functions, and therefore print and println are macros.
 10. macros generate code at the location during compile time.
+11. `&str` is datatype annotation for string.
+12. Shadowing allows you to create variables with same name.
