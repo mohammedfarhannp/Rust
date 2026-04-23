@@ -28,4 +28,5 @@ fn main()
 12. Shadowing allows you to create variables with same name.
 13. `#[allow(unused_variables)]` use of this before main at top to avoid warnings on unused variables or just rename the variable to start with underscore like this `let _x: i8 = 20;`
 14. `#[allow(unused_assignments)]` use this before main at top to avoid warnings on unused assignments of variables.
-15. 
+15. Doesn't have OOP in traditional sense but can program OOP style programs. No classes but could mimick classes with structs and traits.
+
