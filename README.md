@@ -1,7 +1,7 @@
 # Rust
 Rust Programming Langauge (Me attempting to learn)
 
-YouTube Video: https://youtu.be/BpPEoZW5IiY?t=4192
+YouTube Video: https://youtu.be/BpPEoZW5IiY?t=4508
 
 # Notes
 1. `fn` to define function
@@ -32,7 +32,7 @@ fn main()
 16. Default types of Integers is `i32` and floats is `f64`.
 17. char type variable takes up 4 bytes unlike the C language taking 1 byte.
 18. Use of double quotes for string type and single quotes for char type.
-
+19. 
 
 # Integer Types
 | Length    | Signed    | Unsigned |
