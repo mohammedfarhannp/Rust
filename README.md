@@ -22,3 +22,5 @@ fn main()
     }
 }
 ```
+9. Only macros are called with `!()` not functions, and therefore print and println are macros.
+10. macros generate code at the location during compile time.
