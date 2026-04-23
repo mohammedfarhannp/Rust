@@ -19,6 +19,6 @@ fn main() {
     println!("F XOR F = {}", false ^ false);
     
     // Bitwise Shift
-    println!("{}", 1<<5); // 00000001 -> 00100000
-    println!("{}", 32>>5); // 00100000 -> 00000001
+    println!("Bitwise Left Shift 1 five times = {}", 1<<5); // 00000001 -> 00100000
+    println!("Bitwise Right Shift 32 five times = {}", 32>>5); // 00100000 -> 00000001
 }
