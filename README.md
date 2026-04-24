@@ -32,7 +32,8 @@ fn main()
 16. Default types of Integers is `i32` and floats is `f64`.
 17. char type variable takes up 4 bytes unlike the C language taking 1 byte.
 18. Use of double quotes for string type and single quotes for char type.
-19. 
+19. bool type takes 1 byte and unit type (empty tuple) takes 0 bytes.
+20. 
 
 # Integer Types
 | Length    | Signed    | Unsigned |
