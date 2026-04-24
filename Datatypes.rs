@@ -1,5 +1,7 @@
 #[allow(unused_assignments)]
 
+use std::mem::size_of_val;
+
 fn main() {
     // String Datatype
     let a: &str = "Hello World!";
@@ -19,6 +21,10 @@ fn main() {
     let x: bool = true; // Boolean Value True
     let y: bool = false; // Boolean Value False
 
-    
+    // Unit Datatype
+    let unit: () = (); // Empty // Unit type
+    // Functions without a return function would return a unit type
+    println!("{}", size_of_val(&unit)) // Size would be zero
+
 
 }
