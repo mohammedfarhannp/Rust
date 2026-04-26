@@ -11,6 +11,12 @@ fn example() {
     println!("{} World", x);
 }
 
+// Causes the program to panic
+#[allow(dead_code)]
+fn never_return() -> ! {
+    panic!();
+}
+
 fn add(a: i8, b: i8) -> i8 {
-    return a + b;
+    a + b
 }
