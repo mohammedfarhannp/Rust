@@ -35,7 +35,16 @@ fn main()
 19. bool type takes 1 byte and unit type (empty tuple) takes 0 bytes.
 20. Use `#[allow(dead_code)]` on top of any function to keep the function unused and not spit warning.
 21. Use `unimplemented!()` or `todo!()` macro to keep the functions without implementation, similar to `pass` statement in python.
-22. 
+
+
+# Ownership in Rust
+Ownership is something unique to Rust
+3 rules of ownership
+1. Each value in Rust has an owner
+2. There can be only one owner at a time
+3. When the owner goes out of scope, the value will be dropped.
+
+
 
 # Integer Types
 | Length    | Signed    | Unsigned |
