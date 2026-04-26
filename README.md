@@ -34,6 +34,8 @@ fn main()
 18. Use of double quotes for string type and single quotes for char type.
 19. bool type takes 1 byte and unit type (empty tuple) takes 0 bytes.
 20. Use `#[allow(dead_code)]` on top of any function to keep the function unused and not spit warning.
+21. Use `unimplemented!()` or `todo!()` macro to keep the functions without implementation, similar to `pass` statement in python.
+22. 
 
 # Integer Types
 | Length    | Signed    | Unsigned |
