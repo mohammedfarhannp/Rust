@@ -35,6 +35,7 @@ fn main()
 19. bool type takes 1 byte and unit type (empty tuple) takes 0 bytes.
 20. Use `#[allow(dead_code)]` on top of any function to keep the function unused and not spit warning.
 21. Use `unimplemented!()` or `todo!()` macro to keep the functions without implementation, similar to `pass` statement in python.
+22. `let s1 = String::from("Hello");`, here, s1 is pointer in stack that points to an address in heap containing string, pointers are useful to store data whose size is unfixed and can vary during runtime.
 
 
 # Ownership in Rust
