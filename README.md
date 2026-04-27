@@ -1,7 +1,7 @@
 # Rust
 Rust Programming Langauge (Me attempting to learn)
 
-YouTube Video: https://youtu.be/BpPEoZW5IiY?t=6564
+YouTube Video: https://youtu.be/BpPEoZW5IiY?t=6948
 
 # Notes
 1. 
