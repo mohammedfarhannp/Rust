@@ -1,0 +1,24 @@
+use std::io; // Standard Input/Output module
+use std::io::Write; // For flushing...
+
+#[allow(unused_assignments)]
+#[allow(unused_variables)]
+fn main() {
+    let s: String = string_input("What's you name: ");
+    println!("Welcome back Mr. {}", s);    
+}
+
+// Function for user input (string pointer)
+fn string_input(prompt: &str) -> String {
+    print!("{}", prompt);
+    io::stdout().flush().expect("Failed to flush");
+    
+    let mut input = String::new();
+    
+    io::stdin()
+        .read_line(&mut input)
+        .expect("Failed to read line");
+    
+    // Remove only the trailing newline
+    input.trim_end_matches('\n').to_string()
+}
