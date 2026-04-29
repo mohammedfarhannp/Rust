@@ -13,6 +13,7 @@ fn main() {
     
 }
 
+// Similar for floats, chars, integers, bools etc.
 fn input_i32(prompt: &str) -> i32 {
     print!("{}", prompt);
     io::stdout().flush().expect("Failed to flush");
