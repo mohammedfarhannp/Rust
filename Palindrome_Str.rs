@@ -3,7 +3,7 @@ use std::io::Write;
 
 fn main() {
     let str_1 : String = str_input("Enter a String: ");
-    is_palindrome(String);
+    is_palindrome(str_1);
 }
 
 fn str_input(prompt: &str) -> String {
@@ -16,13 +16,13 @@ fn str_input(prompt: &str) -> String {
     input.trim().to_string()
 }
 
-fn is_palindrome(string : &str) -> bool {
+fn is_palindrome(string : String) -> bool {
 
     let mut rev : String = String::new();
-    let mut length : u8 = string.chars().count()
+    let length : usize = string.chars().count();
 
-    for i in 0..length {
-        
+    for i in 1..length+1 {
+        rev.push(string.chars().nth(length - i).expect("FAAAAA"))
     }
 
     println!("{}", rev);
